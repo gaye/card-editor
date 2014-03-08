@@ -1,0 +1,151 @@
+body {
+  background: url('/style/images/graph-paper.png');
+}
+
+
+.ui-container {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+
+.card-preview {
+  float: left;
+  height: 100%;
+  position: relative;
+  width: 50%;
+}
+
+
+.card-editor {
+  float: left;
+  height: 100%;
+  position: relative;
+  width: 50%;
+}
+
+
+.card {
+  border: 1px solid #EEEEEE;
+  border-radius: 3%;
+  background-color: white;
+  height: 360px;
+  margin: 5%;
+  padding: 1%;
+  position: fixed;
+  width: 270px;
+}
+
+
+.card-name {
+  background-color: white;
+  border: 1px solid black;
+  font-size: 24px;
+  font-weight: bold;
+  height: 29px;
+  position: relative;
+  text-align: center;
+}
+
+
+.card-image-container {
+  border: 1px solid black;
+  height: 160px;
+  position: relative;
+  margin: 10px auto;
+  width: 100%;
+}
+
+
+.card-image {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+
+.card-tray {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 26px;
+  line-height: 26px;
+  padding: 4px;
+  position: relative;
+}
+
+
+.card-type {
+  float: left;
+  font-style: italic;
+  position: relative;
+}
+
+
+.card-cost-container {
+  float: right;
+}
+
+
+.card-cost {
+  border: 1px solid black;
+  border-radius: 50%;
+  float: left;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 2px;
+  text-align: center;
+  width: 20px;
+}
+
+
+.card-description {
+  background-color: white;
+  border: 1px solid black;
+  height: 90px;
+  padding: 4px;
+  position: relative;
+  margin: 10px 0;
+}
+
+
+.card-combat {
+  background-color: #EEEEEE;
+  border: 1px solid black;
+  border-radius: 5px;
+  bottom: 10px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  width: 60px;
+}
+
+
+.black {
+  background-color: gray;
+}
+
+
+.blue {
+  background-color: blue;
+}
+
+
+.green {
+  background-color: green;
+}
+
+
+.red {
+  background-color: red;
+}
+
+
+.white {
+  background-color: yellow;
+}

@@ -1,0 +1,31 @@
+<div class="card"
+     data-bind="css: color">
+  <div class="card-name"
+       data-bind="text: name"></div>
+
+  <div class="card-image-container">
+    <img class="card-image"
+         data-bind="attr: { src: image }"></img>
+  </div>
+
+  <div class="card-tray">
+    <div class="card-type"
+         data-bind="text: cardtype"></div>
+
+    <div class="card-cost-container">
+      <div class="card-cost card-colorless-cost"
+           data-bind="visible: hasColorlessCost(),
+                      text: colorlessCost"></div>
+      <div class="card-cost card-color-cost"
+           data-bind="visible: hasColorCost(),
+                      css: color,
+                      text: colorCost"></div>
+    </div>
+  </div>
+
+  <div class="card-description" data-bind="text: description"></div>
+
+  <div class="card-combat"
+       data-bind="visible: isEnvoy(),
+                  text: formatCombat()"></div>
+</div>

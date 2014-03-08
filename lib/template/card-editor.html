@@ -1,0 +1,98 @@
+<form class="pure-form pure-form-stacked">
+  <fieldset>
+    <label for="name">Name</label>
+    <input type="text"
+           name="name"
+           data-bind="value: name,
+                      valueUpdate: 'input'">
+    <br />
+
+    <label for="color">Color</label>
+    <label for="black" class="pure-radio">
+      <input type="radio"
+             name="color"
+             value="black"
+             data-bind="checked: color">
+      Black
+    </label>
+    <label for="blue" class="pure-radio">
+      <input type="radio"
+             name="color"
+             value="blue"
+             data-bind="checked: color">
+      Blue
+    </label>
+    <label for="green" class="pure-radio">
+      <input type="radio"
+             name="color"
+             value="green"
+             data-bind="checked: color">
+      Green
+    </label>
+    <label for="red" class="pure-radio">
+      <input type="radio"
+             name="color"
+             value="red"
+             data-bind="checked: color">
+      Red
+    </label>
+    <label for="white" class="pure-radio">
+      <input type="radio"
+             name="color"
+             value="white"
+             data-bind="checked: color">
+      White
+    </label>
+    <br />
+
+    <label for="image">Image URL</label>
+    <input type="text"
+           name="image"
+           data-bind="value: image,
+                      valueUpdate: 'input'">
+    <br />
+
+    <label for="cardtype">Card Type</label>
+    <input type="text"
+           name="cardtype"
+           data-bind="value: cardtype,
+                      valueUpdate: 'input'">
+
+    <br />
+
+    <label for="colorlessCost">Colorless Cost</label>
+    <input type="text"
+           name="colorlessCost"
+           data-bind="value: colorlessCost,
+                      valueUpdate: 'input'">
+    <br />
+
+    <label for="colorCost">Color Cost</label>
+    <input type="text"
+           name="colorCost"
+           data-bind="value: colorCost,
+                      valueUpdate: 'input'">
+    <br />
+
+    <label for="description">Description</label>
+    <textarea name="description"
+              data-bind="value: description,
+                         valueUpdate: 'input'">
+    </textarea>
+    <br />
+
+    <label for="power">Power</label>
+    <input type="text"
+           name="power"
+           data-bind="value: power,
+                      valueUpdate: 'input'">
+    <br />
+
+    <label for="hp">HP</label>
+    <input type="text"
+           name="hp"
+           data-bind="value: hp,
+                      valueUpdate: 'input'">
+    <br />
+  </fieldset>
+</form>
